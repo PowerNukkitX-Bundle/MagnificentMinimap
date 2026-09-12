@@ -1,6 +1,5 @@
 {
     "ui_defs": [
-        "ui/minimap_hud.json",
-        "ui/atlas_map_screen.json"
+        "ui/minimap_hud.json"
     ]
 }
