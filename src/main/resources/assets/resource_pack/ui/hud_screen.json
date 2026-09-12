@@ -1,0 +1,43 @@
+{
+    "namespace": "hud",
+
+    "hud_title_text/title_frame": {
+        "bindings": [
+            {
+                "binding_name": "#hud_title_text_string"
+            },
+            {
+                "binding_type": "view",
+                "source_property_name": "(((#hud_title_text_string - 'mm_render_0') = #hud_title_text_string) and ((#hud_title_text_string - 'mm_render_1') = #hud_title_text_string))",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+
+    "hud_title_text/subtitle_frame": {
+        "bindings": [
+            {
+                "binding_name": "#hud_title_text_string"
+            },
+            {
+                "binding_type": "view",
+                "source_property_name": "(((#hud_title_text_string - 'mm_render_0') = #hud_title_text_string) and ((#hud_title_text_string - 'mm_render_1') = #hud_title_text_string))",
+                "target_property_name": "#visible"
+            }
+        ]
+    },
+
+    "root_panel": {
+        "modifications": [
+            {
+                "array_name": "controls",
+                "operation": "insert_front",
+                "value": [
+                    {
+                        "root_panel@minimap_hud.root_panel": {}
+                    }
+                ]
+            }
+        ]
+    }
+}

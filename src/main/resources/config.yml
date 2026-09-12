@@ -1,0 +1,14 @@
+# Magnificent Minimap PNX
+# The supplied resource pack is required on the client.
+enabled: true
+fps: 5
+zoom: 7.0
+render-detail: 0
+rotate-minimap: false
+round-minimap: false
+enlarge-on-sneak: true
+render-players: true
+style: VANILLA
+cache-ttl-ms: 5000
+# Atlas renders in small batches so opening it does not stall the server tick.
+atlas-rows-per-tick: 3
